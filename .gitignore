@@ -1,0 +1,14 @@
+﻿*.zip
+*.tar.gz
+*.7z
+**/oracleJdk*/**
+**/jdk*/**
+**/modules
+target/
+*.jar
+*.class
+.idea/
+*.iml
+.vscode/
+docs/doxygen/html/
+docs/doxygen/latex/

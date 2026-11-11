@@ -1,0 +1,21 @@
+# Doxygen configuration for Crypto Gym (Exercises 2.3, 3.3, 3.4)
+PROJECT_NAME           = "Crypto Gym"
+PROJECT_BRIEF          = "Java Cryptography Architecture (Bouncy Castle) Educational Suite"
+OUTPUT_DIRECTORY       = docs/doxygen
+CREATE_SUBDIRS         = NO
+OUTPUT_LANGUAGE        = English
+OPTIMIZE_OUTPUT_JAVA   = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+INPUT                  = src/main/java
+RECURSIVE              = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = YES
+UML_LOOK               = YES
+CLASS_GRAPH            = YES
+COLLABORATION_GRAPH    = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+JAVADOC_AUTOBRIEF      = YES
